@@ -82,6 +82,7 @@ img {
 .btn:hover {
     background-color: var(--soft-magenta);
     color: #fff;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);
 }
 
 .footer {
@@ -167,7 +168,7 @@ a {
 
 @media screen and (min-width: 992px) {
     .container {
-        padding: 20px 50px;
+        padding: 30px 50px;
     }
 
     .logo {
@@ -184,7 +185,7 @@ a {
     }
 
     .text-content {
-        gap: 0.875rem;
+        gap: 1rem;
     }
 
     .title {
@@ -195,17 +196,11 @@ a {
 @media screen and (min-width: 1120px) {
     .container {
         background-size: contain;
-        padding: 10px 60px;
-    }
-
-    .text-content {
-        justify-content: flex-start;
-        gap: 1rem;
-        margin-top: 30px;
+        padding: 30px 60px;
     }
 
     .title {
-        font-size: 35px;
+        font-size: 36px;
     }
 
     .btn {
@@ -217,16 +212,10 @@ a {
 
 @media screen and (min-width: 1200px) {
     .text-content {
-        margin-top: 50px;
+        gap: 1.25rem;
     }
 
     .title {
         font-size: 38px;
-    }
-}
-
-@media screen and (min-width: 1400px) {
-    .text-content {
-        margin-top: 70px;
     }
 }
